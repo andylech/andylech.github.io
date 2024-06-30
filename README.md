@@ -57,4 +57,5 @@ I am grateful for the work of the original author, [Saad Pasta (@saadpasta)](htt
 + Once I have made my own version of the SDF in Blazor, I could turn the Blazor project into a template for others to use in a more plug-and-play style.  That is a long way off, if ever, but something to consider.
 
 Andy Lech
-2024-06-29
+
+[2024-06-29]

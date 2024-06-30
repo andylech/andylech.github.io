@@ -1,13 +1,14 @@
 @import "../../_globalColor";
 
 .skills-main-div {
-  display: flex;
   width: 100%;
-  overflow: hidden;
+  padding: 20px 10px;
+  margin: 0px auto;
+  margin-top: 2rem;
 }
 
 .skills-text-div {
-  margin-left: 50px;
+  width: 100%;
 }
 
 .skills-main-div > * {

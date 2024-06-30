@@ -4,6 +4,7 @@ import TalkCard from "../../components/talkCard/TalkCard";
 import {talkSection} from "../../portfolio";
 import {Fade} from "react-reveal";
 import StyleContext from "../../contexts/StyleContext";
+import Button from "../../components/button/Button";
 
 export default function Talks() {
   const {isDark} = useContext(StyleContext);
@@ -24,6 +25,10 @@ export default function Talks() {
           >
             {talkSection.subtitle}
           </p>
+          <div className="button-greeting-div">
+            <Button className="project-button" text="Sessionize Profile"
+              target="reference" href={talkSection.sessionizeProfile} />
+          </div>
           {talkSection.talks.map((talk, i) => {
             return (
               <TalkCard
