@@ -3,43 +3,40 @@
 // To change portfolio colors globally go to the  _globalColor.scss file
 
 import emoji from "react-easy-emoji";
-import splashAnimation from "./assets/lottie/splashAnimation"; // Rename to your file name for custom animation
 
 // Splash Screen
 
 const splashScreen = {
-  enabled: true, // set false to disable splash screen
-  animation: splashAnimation,
-  duration: 2000 // Set animation duration as per your animation
+  enabled: false, // set false to disable splash screen
 };
 
 // Summary And Greeting Section
 
 const illustration = {
-  animated: true // Set to false to use static SVG
+  animated: false // Set to false to use static SVG
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
-  subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
-  ),
+  username: "Andy Lech",
+  title: "Hi, I'm Andy Lech",
+  subTitle: "I've been working in .NET since 2011, creating cross-platform .NET mobile apps with Xamarin.Forms and .NET MAUI on Android and iOS for Golf Channel and others since 2015.",
+  // TODO
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing",
+    // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  linkedin: "https://www.linkedin.com/in/andy-lech/",
+  github: "https://github.com/andylech",
+  gmail: "portfolio@andylech.com",
+  // gitlab: "",
+  // facebook: "",
+  // medium: "",
+  // stackoverflow: "",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -47,124 +44,67 @@ const socialMediaLinks = {
 
 // Skills Section
 
+// TODO Replace lightning bolt with bullet point when figure out how to insert that emoji
 const skillsSection = {
-  title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  title: "Summary",
+  // TODO
+  subTitle: "",
+  // TODO
   skills: [
-    emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
-    ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
-    emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
-    )
+    <li>
+      <u>9 years</u> architecting and building <u>cross-platform mobile apps</u> (Android, iOS) on <a href="https://learn.microsoft.com/en-us/previous-versions/xamarin/xamarin-forms/" target="reference">Xamarin.Forms</a> and <a href="https://learn.microsoft.com/en-us/dotnet/maui/" target="reference">.NET MAUI</a>
+    </li>,
+    <li>
+      <u>9 years</u> designing and creating <a href="https://github.com/xamarinfiles/library-api-sessionize/" target="reference">REST APIs</a>, <a href="https://github.com/xamarinfiles/" target="reference">.NET libraries</a>, and <a href="https://www.nuget.org/profiles/TheXamarinFiles/" target="reference">NuGet packages</a> for <u>.NET mobile apps</u>
+    </li>,
+    <li>
+      <u>13 years</u> overall developing with <u>.NET</u> and <u>SQL Server</u> focusing on efficient <u>Data Design</u> and <u>Data Consumption</u>
+    </li>,
+    <li>
+      <a href="https://github.com/xamarinfiles/presentations/" target="reference">Presenter</a> on <u>mobile development</u> and <u>API design</u> at <a href="https://orlandocodecamp.com/speakers/" target="reference">Orlando Code Camp</a> and other <a href="https://sessionize.com/andy-lech/" target="reference">regional conferences</a>
+    </li>,
+    <li>
+      President of <a href="https://www.meetup.com/onetug/" target="reference">Orlando .NET User Group (ONETUG)</a> and head organizer of <a href="https://github.com/Orlando-Codecamp/orlandocodecamp.github.io" target="reference">Orlando Code Camp</a>
+  </li>
   ],
-
-  /* Make Sure to include correct Font Awesome Classname to view your icon
-https://fontawesome.com/icons?d=gallery */
-
-  softwareSkills: [
-    {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
-    },
-    {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
-    },
-    {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
-    },
-    {
-      skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
-    },
-    {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
-    },
-    {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
-    },
-    {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
-    },
-    {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
-    },
-    {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    },
-    {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
-    },
-    {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
-    }
-  ],
+  // TODO See original for content types to add back if figure alternative with .NET logos
+  /* Make Sure to include correct Font Awesome class name to view your icon */
+  /* https://fontawesome.com/icons?d=gallery */
+  softwareSkills: [  ],
   display: true // Set false to hide this section, defaults to true
 };
 
 // Education Section
 
+// TODO See original for content types to add back
 const educationInfo = {
-  display: true, // Set false to hide this section, defaults to true
-  schools: [
-    {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
-    },
-    {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
-    }
-  ]
+  display: false, // Set false to hide this section, defaults to true
+  schools: [ ]
 };
 
 // Your top 3 proficient stacks/tech experience
 
+// TODO Rework skillProgress layout to show all skills by years (keep progress bar?)
 const techStack = {
-  viewSkillBars: true, //Set it to true to show Proficiency Section
+  viewSkillBars: false, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
+      skill: "Skill 1", //Insert stack or technology you have experience in
+      progressPercentage: "100%", //Insert relative proficiency in percentage
+      years: 13
     },
     {
-      Stack: "Backend",
-      progressPercentage: "70%"
+      skill: "Skill 2",
+      progressPercentage: "85%",
+      years: 11
     },
     {
-      Stack: "Programming",
-      progressPercentage: "60%"
+      skill: "Skill 3",
+      progressPercentage: "70%",
+      years: 9
     }
   ],
+  // TODO
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
 };
 
@@ -174,29 +114,111 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "Mobile Developer",
+      company: "CoventBridge",
+      companylogo: require("./assets/images/coventbridgeLogo.jpg"),
+      date: "October 2020 - January 2024",
+      desc: "",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Created new Xamarin.Forms app on iPhones for commercial fraud investigations in the field with SmartPartner",
+        "Developed new Xamarin.Forms app on iPads for government fraud investigations in the field with UPIC",
+        "Architected apps with MVVM backbone, ViewModel navigation, and ReactiveUI for responsiveness and testability",
+        "Designed and built new SQL Server DB and designed and built new API in LoopBack for new UPIC app",
+        "Extended SQL Server DB and ASP.NET Web API backed by Entity Framework for new SmartPartner app"
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Senior Software Engineer",
+      company: "RexPay",
+      companylogo: require("./assets/images/rexPayLogo.png"),
+      date: "August 2019 - January 2020",
+      desc: "",
+      descBullets: [
+        "Fixed numerous logic, architecture, layout, and crash bugs from prototype while bringing the app to market",
+        "Overhauled broken camera library to enable core image-capture logic across a variety of Android devices",
+        "Split image analysis into phases using persistent background processes to accommodate app lifecycle events"
+      ]
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Lead Mobile Engineer",
+      company: "Golf Channel",
+      companylogo: require("./assets/images/golfChannelLogo.png"),
+      date: "March 2018 – July 2019",
+      desc: "",
+      descBullets: [
+        "Created new Xamarin.Forms app replacing divergent Android and iOS code bases having different tech stacks",
+        "Architected app with MVVM backbone, ViewModel navigation, and messaging service for analytics and reporting",
+        "Replaced broken build pipeline and legacy distribution, analytics, and error-reporting with VS App Center",
+        "Built dependent libraries to consume and test multiple REST services implementing complex business logic"
+      ]
+    },
+    {
+      role: "Lead Xamarin Developer",
+      company: "3cStudios",
+      companylogo: require("./assets/images/3cStudiosLogo.png"),
+      date: "February 2017 – March 2018",
+      desc: "",
+      descBullets: [
+        "Built new Xamarin.Forms app for iPads to streamline purchasing of school supplies at 3cFreeStore locations",
+        "Added barcode scanning and inventory matching logic to speed lookup of inventory items dramatically"
+      ]
+    },
+    {
+      role: "Software Developer",
+      company: "BBA Aviation",
+      companylogo: require("./assets/images/bbaAviationLogo.png"),
+      date: "August 2015 – May 2017",
+      desc: "",
+      descBullets: [
+        "Developed new Xamarin.Forms app for Signature Loyalty on Android and iOS leading to 4X usage increase",
+        "Created new Xamarin.Forms app for project workflow system for Android, iOS, and Windows Phone",
+        "In charge of Xamarin Insights error-tracking, Android deployments, and Android and iOS store analytics"
+      ]
+    },
+    {
+      role: "Programmer/Analyst 4",
+      company: "McKesson Technology Solutions",
+      companylogo: require("./assets/images/mckessonLogo.jpg"),
+      date: "February 2015 – June 2015",
+      desc: "",
+      descBullets: [
+        "Created and maintained complex business rules to predict insurance-company reimbursements to hospitals",
+        "Brought backlog of work items down to zero for permanent staff by working open defects and enhancements"
+      ]
+    },
+    {
+      role: "Software Engineer 3",
+      company: "McKesson Technology Solutions",
+      companylogo: require("./assets/images/mckessonLogo.jpg"),
+      date: "October 2013 – October 2014",
+      desc: "",
+      descBullets: [
+        "Developed ASP.NET MVC site for administering, searching, and reporting on 1.8+ million phone calls in 9 mos",
+        "Made multiple Highcharts of volumes and breakdowns including chart-to-page and chart-to-chart drill-downs",
+        "Designed a data mart to feed the executive dashboard and summarize millions of calls in under 1 second",
+      ]
+    },
+    {
+      role: "C# .NET Developer",
+      company: "SeaWorld Parks & Entertainment",
+      companylogo: require("./assets/images/seaWorldLogo.png"),
+      date: "March 2013 – June 2013",
+      desc: "",
+      descBullets: [
+        "Management of 200+ transactional email templates embedded in SeaWorld's legacy e-commerce application",
+        "Created automated conversion to overhaul non-standard templates for running on a 3rd-party email service"
+      ]
+    },
+    {
+      role: "Senior Systems Analyst",
+      company: "University of Pittsburgh Medical Center",
+      companylogo: require("./assets/images/upmcLogo.png"),
+      date: "May 2011 – September 2012",
+      desc: "",
+      descBullets: [
+        "Brought a bug-ridden application for tracking Cancer specimens back to life despite missing source code",
+        "Developed ASP.NET MVC model for NIH-funding tracker built on top of Entity Framework and SQL Server"
+      ]
     }
   ]
 };
@@ -211,136 +233,48 @@ const openSource = {
 
 // Some big projects you have worked on
 
+// TODO See original for content types to add back
 const bigProjects = {
   title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
-  projects: [
-    {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
-        }
-        //  you can add extra buttons here.
-      ]
-    },
-    {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "http://nextu.se/"
-        }
-      ]
-    }
-  ],
-  display: true // Set false to hide this section, defaults to true
+  subtitle: "",
+  projects: [],
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Achievement Section
 // Include certificates, talks etc
 
+// TODO See original for content types to add back
 const achievementSection = {
   title: emoji("Achievements And Certifications 🏆 "),
-  subtitle:
-    "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
-
-  achievementsCards: [
-    {
-      title: "Google Code-In Finalist",
-      subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
-      imageAlt: "Google Code-In Logo",
-      footerLink: [
-        {
-          name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
-        },
-        {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
-        }
-      ]
-    },
-    {
-      title: "Google Assistant Action",
-      subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      imageAlt: "Google Assistant Action Logo",
-      footerLink: [
-        {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
-        }
-      ]
-    },
-
-    {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      imageAlt: "PWA Logo",
-      footerLink: [
-        {name: "Certification", url: ""},
-        {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
-        }
-      ]
-    }
-  ],
-  display: true // Set false to hide this section, defaults to true
+  subtitle: "",
+  achievementsCards: [],
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Blogs Section
 
+// TODO See original for content types to add back
 const blogSection = {
   title: "Blogs",
-  subtitle:
-    "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
-  displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
-  blogs: [
-    {
-      url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-      title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
-      description:
-        "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
-    },
-    {
-      url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
-      title: "Why REACT is The Best?",
-      description:
-        "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
-    }
-  ],
-  display: true // Set false to hide this section, defaults to true
+  subtitle: "",
+  displayMediumBlogs: "false", // Set true to display fetched medium blogs instead of hardcoded ones
+  blogs: [ ],
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
 
 const talkSection = {
-  title: "TALKS",
-  subtitle: emoji(
-    "I LOVE TO SHARE MY LIMITED KNOWLEDGE AND GET A SPEAKER BADGE 😅"
-  ),
-
+  title: "Talks",
+  subtitle: " ",
+  sessionizeProfile: "https://sessionize.com/andy-lech/",
   talks: [
     {
-      title: "Build Actions For Google Assistant",
-      subtitle: "Codelab at GDG DevFest Karachi 2019",
-      slides_url: "https://bit.ly/saadpasta-slides",
-      event_url: "https://www.facebook.com/events/2339906106275053/"
+      title: "The Secret to Mobile is API Design, App Architecture, and Data Handling",
+      subtitle: "",
+      slides_url: "",
+      event_url: "https://sessionize.com/s/andy-lech/the-secret-to-mobile-is-api-design-app-architectur/74819"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -348,24 +282,22 @@ const talkSection = {
 
 // Podcast Section
 
+// TODO See original for content types to add back
 const podcastSection = {
   title: emoji("Podcast 🎙️"),
-  subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
-
-  // Please Provide with Your Podcast embeded Link
-  podcast: [
-    "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
-  ],
-  display: true // Set false to hide this section, defaults to true
+  subtitle: "",
+  podcast: [ ],
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Resume Section
+
+// TODO Not working in the original
 const resumeSection = {
   title: "Resume",
-  subtitle: "Feel free to download my resume",
+  subtitle: "",
 
-  // Please Provide with Your Podcast embeded Link
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 const contactInfo = {
@@ -380,10 +312,10 @@ const contactInfo = {
 
 const twitterDetails = {
   userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  display: false // Set true to display this section, defaults to false
 };
 
-const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
+const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
 
 export {
   illustration,
@@ -400,8 +332,8 @@ export {
   blogSection,
   talkSection,
   podcastSection,
+  resumeSection,
   contactInfo,
   twitterDetails,
-  isHireable,
-  resumeSection
+  isHireable
 };
