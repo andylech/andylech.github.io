@@ -7,7 +7,7 @@ import emoji from "react-easy-emoji";
 // Splash Screen
 
 const splashScreen = {
-  enabled: false, // set false to disable splash screen
+  enabled: false // set false to disable splash screen
 };
 
 // Summary And Greeting Section
@@ -19,11 +19,12 @@ const illustration = {
 const greeting = {
   username: "Andy Lech",
   title: "Hi, I'm Andy Lech",
-  subTitle: "I've been working in .NET since 2011, creating cross-platform .NET mobile apps with Xamarin.Forms and .NET MAUI on Android and iOS for Golf Channel and others since 2015.",
+  subTitle:
+    "I've been working in .NET since 2011, creating cross-platform .NET mobile apps with Xamarin.Forms and .NET MAUI on Android and iOS for Golf Channel and others since 2015.",
   // TODO
   resumeLink:
     "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing",
-    // Set to empty to hide the button
+  // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -52,25 +53,81 @@ const skillsSection = {
   // TODO
   skills: [
     <li>
-      <u>9 years</u> architecting and building <u>cross-platform mobile apps</u> (Android, iOS) on <a href="https://learn.microsoft.com/en-us/previous-versions/xamarin/xamarin-forms/" target="reference">Xamarin.Forms</a> and <a href="https://learn.microsoft.com/en-us/dotnet/maui/" target="reference">.NET MAUI</a>
+      <u>9 years</u> architecting and building <u>cross-platform mobile apps</u>{" "}
+      (Android, iOS) on{" "}
+      <a
+        href="https://learn.microsoft.com/en-us/previous-versions/xamarin/xamarin-forms/"
+        target="reference"
+      >
+        Xamarin.Forms
+      </a>{" "}
+      and{" "}
+      <a
+        href="https://learn.microsoft.com/en-us/dotnet/maui/"
+        target="reference"
+      >
+        .NET MAUI
+      </a>
     </li>,
     <li>
-      <u>9 years</u> designing and creating <a href="https://github.com/xamarinfiles/library-api-sessionize/" target="reference">REST APIs</a>, <a href="https://github.com/xamarinfiles/" target="reference">.NET libraries</a>, and <a href="https://www.nuget.org/profiles/TheXamarinFiles/" target="reference">NuGet packages</a> for <u>.NET mobile apps</u>
+      <u>9 years</u> designing and creating{" "}
+      <a
+        href="https://github.com/xamarinfiles/library-api-sessionize/"
+        target="reference"
+      >
+        REST APIs
+      </a>
+      ,{" "}
+      <a href="https://github.com/xamarinfiles/" target="reference">
+        .NET libraries
+      </a>
+      , and{" "}
+      <a
+        href="https://www.nuget.org/profiles/TheXamarinFiles/"
+        target="reference"
+      >
+        NuGet packages
+      </a>{" "}
+      for <u>.NET mobile apps</u>
     </li>,
     <li>
-      <u>13 years</u> overall developing with <u>.NET</u> and <u>SQL Server</u> focusing on efficient <u>Data Design</u> and <u>Data Consumption</u>
+      <u>13 years</u> overall developing with <u>.NET</u> and <u>SQL Server</u>{" "}
+      focusing on efficient <u>Data Design</u> and <u>Data Consumption</u>
     </li>,
     <li>
-      <a href="https://github.com/xamarinfiles/presentations/" target="reference">Presenter</a> on <u>mobile development</u> and <u>API design</u> at <a href="https://orlandocodecamp.com/speakers/" target="reference">Orlando Code Camp</a> and other <a href="https://sessionize.com/andy-lech/" target="reference">regional conferences</a>
+      <a
+        href="https://github.com/xamarinfiles/presentations/"
+        target="reference"
+      >
+        Presenter
+      </a>{" "}
+      on <u>mobile development</u> and <u>API design</u> at{" "}
+      <a href="https://orlandocodecamp.com/speakers/" target="reference">
+        Orlando Code Camp
+      </a>{" "}
+      and other{" "}
+      <a href="https://sessionize.com/andy-lech/" target="reference">
+        regional conferences
+      </a>
     </li>,
     <li>
-      President of <a href="https://www.meetup.com/onetug/" target="reference">Orlando .NET User Group (ONETUG)</a> and head organizer of <a href="https://github.com/Orlando-Codecamp/orlandocodecamp.github.io" target="reference">Orlando Code Camp</a>
-  </li>
+      President of{" "}
+      <a href="https://www.meetup.com/onetug/" target="reference">
+        Orlando .NET User Group (ONETUG)
+      </a>{" "}
+      and head organizer of{" "}
+      <a
+        href="https://github.com/Orlando-Codecamp/orlandocodecamp.github.io"
+        target="reference"
+      >
+        Orlando Code Camp
+      </a>
+    </li>
   ],
   // TODO See original for content types to add back if figure alternative with .NET logos
   /* Make Sure to include correct Font Awesome class name to view your icon */
   /* https://fontawesome.com/icons?d=gallery */
-  softwareSkills: [  ],
+  softwareSkills: [],
   display: true // Set false to hide this section, defaults to true
 };
 
@@ -79,7 +136,7 @@ const skillsSection = {
 // TODO See original for content types to add back
 const educationInfo = {
   display: false, // Set false to hide this section, defaults to true
-  schools: [ ]
+  schools: []
 };
 
 // Your top 3 proficient stacks/tech experience
@@ -195,7 +252,7 @@ const workExperiences = {
       descBullets: [
         "Developed ASP.NET MVC site for administering, searching, and reporting on 1.8+ million phone calls in 9 mos",
         "Made multiple Highcharts of volumes and breakdowns including chart-to-page and chart-to-chart drill-downs",
-        "Designed a data mart to feed the executive dashboard and summarize millions of calls in under 1 second",
+        "Designed a data mart to feed the executive dashboard and summarize millions of calls in under 1 second"
       ]
     },
     {
@@ -259,7 +316,7 @@ const blogSection = {
   title: "Blogs",
   subtitle: "",
   displayMediumBlogs: "false", // Set true to display fetched medium blogs instead of hardcoded ones
-  blogs: [ ],
+  blogs: [],
   display: false // Set false to hide this section, defaults to true
 };
 
@@ -271,10 +328,12 @@ const talkSection = {
   sessionizeProfile: "https://sessionize.com/andy-lech/",
   talks: [
     {
-      title: "The Secret to Mobile is API Design, App Architecture, and Data Handling",
+      title:
+        "The Secret to Mobile is API Design, App Architecture, and Data Handling",
       subtitle: "",
       slides_url: "",
-      event_url: "https://sessionize.com/s/andy-lech/the-secret-to-mobile-is-api-design-app-architectur/74819"
+      event_url:
+        "https://sessionize.com/s/andy-lech/the-secret-to-mobile-is-api-design-app-architectur/74819"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -286,7 +345,7 @@ const talkSection = {
 const podcastSection = {
   title: emoji("Podcast 🎙️"),
   subtitle: "",
-  podcast: [ ],
+  podcast: [],
   display: false // Set false to hide this section, defaults to true
 };
 

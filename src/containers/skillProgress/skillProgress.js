@@ -21,7 +21,7 @@ export default function StackProgress() {
                     <span style={progressStyle}></span>
                   </div>
                   <span>{exp.years} years</span>
-                  </div>
+                </div>
               );
             })}
           </div>

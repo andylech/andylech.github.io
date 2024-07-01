@@ -26,8 +26,12 @@ export default function Talks() {
             {talkSection.subtitle}
           </p>
           <div className="button-greeting-div">
-            <Button className="project-button" text="Sessionize Profile"
-              target="reference" href={talkSection.sessionizeProfile} />
+            <Button
+              className="project-button"
+              text="Sessionize Profile"
+              target="reference"
+              href={talkSection.sessionizeProfile}
+            />
           </div>
           {talkSection.talks.map((talk, i) => {
             return (
