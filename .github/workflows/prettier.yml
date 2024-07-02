@@ -17,11 +17,11 @@ jobs:
         with:
           node-version: 20
 
-      - name: Install 🔧 # Install dependencies
+      # Install dependencies
+      - name: Install 🔧
         run: |
           npm install
 
       - name: Check Format
         run: |
           npm run check-format
-
