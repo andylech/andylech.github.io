@@ -36,4 +36,4 @@ jobs:
           # The branch the action should deploy to.
           branch: gh-pages
           # This is provided by GitHub.
-          token : ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.GITHUB_TOKEN }}

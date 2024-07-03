@@ -59,8 +59,7 @@ export default function Blogs() {
       </div>
       <div className="blog-main-div">
         <div className="blog-text-div">
-          {blogSection.displayMediumBlogs !== "true" ||
-          mediumBlogs === "Error"
+          {blogSection.displayMediumBlogs !== "true" || mediumBlogs === "Error"
             ? blogSection.blogs.map((blog, i) => {
                 return (
                   <BlogCard

@@ -29,9 +29,7 @@ export default function Podcast() {
       <div className="podcast-main-div">
         {podcastSection.podcast.map((podcastLink, i) => {
           if (!podcastLink) {
-            console.log(
-              `Podcast link for ${podcastSection.title} is missing`
-            );
+            console.log(`Podcast link for ${podcastSection.title} is missing`);
           }
           return (
             <div key={i}>

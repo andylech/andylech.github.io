@@ -22,9 +22,7 @@ export default function StartupProject() {
         <h1 className="skills-heading">{bigProjects.title}</h1>
         <p
           className={
-            isDark
-              ? "dark-mode project-subtitle"
-              : "subTitle project-subtitle"
+            isDark ? "dark-mode project-subtitle" : "subTitle project-subtitle"
           }
         >
           {bigProjects.subtitle}
