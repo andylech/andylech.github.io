@@ -2,7 +2,7 @@
 
 // To change portfolio colors globally go to the  _globalColor.scss file
 
-import emoji from "react-easy-emoji";
+// import emoji from "react-easy-emoji";
 
 // Splash Screen
 
@@ -173,7 +173,7 @@ const workExperiences = {
     {
       role: "Mobile Developer",
       company: "CoventBridge",
-      companylogo: require("./assets/images/coventbridgeLogo.jpg"),
+      companylogo: require("./assets/images/coventBridgeLogo.jpg"),
       date: "October 2020 - January 2024",
       desc: "",
       descBullets: [
@@ -303,7 +303,7 @@ const bigProjects = {
 
 // TODO See original for content types to add back
 const achievementSection = {
-  title: emoji("Achievements And Certifications 🏆 "),
+  title: "Achievements And Certifications",
   subtitle: "",
   achievementsCards: [],
   display: false // Set false to hide this section, defaults to true
@@ -343,7 +343,7 @@ const talkSection = {
 
 // TODO See original for content types to add back
 const podcastSection = {
-  title: emoji("Podcast 🎙️"),
+  title: "Podcast",
   subtitle: "",
   podcast: [],
   display: false // Set false to hide this section, defaults to true
@@ -360,7 +360,7 @@ const resumeSection = {
 };
 
 const contactInfo = {
-  title: emoji("Contact Me ☎️"),
+  title: "Contact Me",
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
   number: "+92-0000000000",
