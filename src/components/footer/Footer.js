@@ -7,7 +7,7 @@ export default function Footer() {
   return (
     <div className="footer-div">
       <p className={isDark ? "dark-mode footer-text" : "footer-text"}>
-        Theme by{" "}
+        Original theme by{" "}
         <a href="https://github.com/saadpasta/developerFolio">developerFolio</a>{" "}
         team
       </p>
