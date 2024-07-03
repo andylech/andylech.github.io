@@ -355,16 +355,14 @@ const podcastSection = {
 const resumeSection = {
   title: "Resume",
   subtitle: "",
-
   display: false // Set false to hide this section, defaults to true
 };
 
 const contactInfo = {
   title: "Contact Me",
-  subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+  subtitle: "",
+  number: "",
+  email_address: ""
 };
 
 // Twitter Section
