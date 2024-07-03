@@ -173,7 +173,7 @@ const workExperiences = {
     {
       role: "Mobile Developer",
       company: "CoventBridge",
-      companylogo: require("./assets/images/coventBridgeLogo.jpg"),
+      companylogo: require("./assets/images/coventBridgeLogo.png"),
       date: "October 2020 - January 2024",
       desc: "",
       descBullets: [
