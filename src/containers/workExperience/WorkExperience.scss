@@ -1,6 +1,6 @@
 .experience-cards-div {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(480px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
   gap: 1rem;
 }
 
@@ -14,7 +14,7 @@
   width: 90%;
   padding: 20px 10px;
   margin: 0px auto;
-  margin-top: 2rem;
+  margin-top: 1rem;
 }
 
 .experience-container > * {
@@ -22,6 +22,14 @@
 }
 
 /* Media Query */
+
+@media (min-width: 500px) {
+  .experience-cards-div {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(480px, 1fr));
+    gap: 1rem;
+  }
+}
 
 @media (max-width: 1380px) {
   .experience-heading {
