@@ -2,8 +2,8 @@ name: Check Format
 on:
   push:
   pull_request:
-      branches:
-        - main
+    branches:
+      - main
 jobs:
   check-format:
     runs-on: ubuntu-latest
