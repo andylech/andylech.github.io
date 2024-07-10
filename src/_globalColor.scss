@@ -1,6 +1,8 @@
-/* Change colors in this file to style to your needs on a global level. 
-Certain colors are used for different and multiply types of elements. 
+/* Change colors in this file to style to your needs on a global level.
+Certain colors are used for different and multiply types of elements.
 For greater control over colors visit each components .scss file. */
+
+// ASL: Color names from https://www.color-name.com/hex/<Value>
 
 // button colors
 $buttonColor: #55198b;
@@ -31,12 +33,17 @@ $githubProfileCardLocationTS: #ffebcd;
 $githubProfileCardBorder: #6c63ff;
 
 // light background colors
-$lightBackground1: #fff;
-$lightBackground2: rgb(255, 255, 255);
+$lightBackground1: #f0efec; // #F0EFEC = "Isabelline" (off white)
+$lightBackground2: #ffffff;
+// TODO Keep this? (Used in AchievementCard and StartupProjects)
 $lightBackground3: #f5f2f4;
+$lightPageBackground: $lightBackground1;
+$lightCardBackground: $lightBackground2;
 $blogCardContainerColor: #586069;
+
 // dark background colors
-$darkBackground: #171c28;
+$darkBackground: #171c28; // #171c28 = "Dark Jungle Green"
+$darkPageBackground: $darkBackground;
 
 // light theme box shadows
 $lightBoxShadowDark: rgba(0, 0, 0, 0.2);

@@ -17,7 +17,7 @@ export default function StartupProject() {
     return null;
   }
   return (
-    <div className="main" id="projects">
+    <div className="main" id="startups">
       <div>
         <h1 className="skills-heading">{bigProjects.title}</h1>
         <p

@@ -5,8 +5,9 @@ import ToggleSwitch from "../ToggleSwitch/ToggleSwitch";
 import StyleContext from "../../contexts/StyleContext";
 import {
   greeting,
-  workExperiences,
+  summarySection,
   skillsSection,
+  workExperiences,
   openSource,
   blogSection,
   talkSection,
@@ -16,9 +17,10 @@ import {
 
 function Header() {
   const {isDark} = useContext(StyleContext);
+  const viewSummary = summarySection.display;
+  const viewSkills = skillsSection.display;
   const viewExperience = workExperiences.display;
   const viewOpenSource = openSource.display;
-  const viewSkills = skillsSection.display;
   const viewAchievement = achievementSection.display;
   const viewBlog = blogSection.display;
   const viewTalks = talkSection.display;
@@ -41,6 +43,11 @@ function Header() {
           <span className={isDark ? "navicon navicon-dark" : "navicon"}></span>
         </label>
         <ul className={isDark ? "dark-menu menu" : "menu"}>
+          {viewSummary && (
+            <li>
+              <a href="#summary">Summary</a>
+            </li>
+          )}
           {viewSkills && (
             <li>
               <a href="#skills">Skills</a>
@@ -48,12 +55,12 @@ function Header() {
           )}
           {viewExperience && (
             <li>
-              <a href="#experience">Work Experiences</a>
+              <a href="#experience">Experience</a>
             </li>
           )}
           {viewOpenSource && (
             <li>
-              <a href="#opensource">Open Source</a>
+              <a href="#openSource">Open Source</a>
             </li>
           )}
           {viewAchievement && (
@@ -76,9 +83,9 @@ function Header() {
               <a href="#resume">Resume</a>
             </li>
           )}
-          <li>
+          {/* <li>
             <a href="#contact">Contact Me</a>
-          </li>
+          </li> */}
           <li>
             {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
             <a>

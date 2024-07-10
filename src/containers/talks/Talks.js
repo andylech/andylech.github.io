@@ -11,10 +11,10 @@ export default function Talks() {
     return null;
   }
   return (
-    <div className="main" id="talks">
-      <div className="talk-header">
-        <h1 className="talk-header-title">{talkSection.title}</h1>
-        <p
+    <div className="section-div" id="talks">
+      <div className="talks-content-div">
+        <h1 className="section-title">{talkSection.title}</h1>
+        {/* <p
           className={
             isDark
               ? "dark-mode talk-header-subtitle"
@@ -22,8 +22,8 @@ export default function Talks() {
           }
         >
           {talkSection.subtitle}
-        </p>
-        <div className="button-greeting-div">
+        </p> */}
+        <div className="button-div">
           <Button
             className="project-button"
             text="Sessionize Profile"

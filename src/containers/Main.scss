@@ -1,7 +1,59 @@
 @import "../_globalColor";
 
+/* Light/Dark Theme */
+
 .dark-mode {
-  background-color: $darkBackground;
-  color: white;
+  background-color: $darkPageBackground;
+  color: $textColorDark;
   transition: "0.1s";
+}
+
+.light-mode {
+  background-color: $lightPageBackground;
+  color: $textColor;
+  transition: "0.1s";
+}
+
+/* Images */
+
+img {
+  font-size: 1em;
+}
+
+/* Common Section Styles */
+
+.section-div {
+  display: flex;
+  width: 90%;
+  margin: 0px auto;
+  margin-top: 2rem;
+}
+
+.section-div > * {
+  flex: 1;
+}
+
+.section-title {
+  font-size: 56px;
+  font-weight: 600;
+  line-height: normal;
+}
+
+/* Media Queries */
+
+@media (max-width: 1380px) {
+  .section-title {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 768px) {
+  .summary-main-div {
+    flex-direction: column;
+  }
+
+  .section-title {
+    font-size: 30px;
+    text-align: center;
+  }
 }
