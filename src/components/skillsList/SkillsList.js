@@ -9,11 +9,7 @@ export default function SkillsList() {
         <ul className="dev-icons">
           {skillsSection.skillsList.map((skills, i) => {
             return (
-              <li
-                key={i}
-                className="skill-inline"
-                name={skills.skillName}
-              >
+              <li key={i} className="skill-inline" name={skills.skillName}>
                 <i className={skills.fontAwesomeClassname}></i>
                 <p>{skills.skillName}</p>
               </li>

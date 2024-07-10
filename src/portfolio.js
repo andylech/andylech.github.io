@@ -63,7 +63,7 @@ const skillsSection = {
   title: "Skills",
   /* Make Sure to include correct Font Awesome class name to view your icon */
   /* https://fontawesome.com/icons?d=gallery */
-  skillsList: [ ],
+  skillsList: [],
   display: false // Set false to hide this section, defaults to true
 };
 
@@ -81,7 +81,7 @@ const educationInfo = {
 const techStack = {
   viewSkillBars: false, //Set it to true to show Proficiency Section
   // TODO Rework skillProgress layout to show all skills by years (keep progress bar?)
-  experience: [ ],
+  experience: []
 };
 
 // Work experience section

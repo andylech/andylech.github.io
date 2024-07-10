@@ -147,7 +147,10 @@ export default function socialMedia() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img src={require("../../assets/images/sessionizeLogo.png")} alt="Sessionize"/>
+          <img
+            src={require("../../assets/images/sessionizeLogo.png")}
+            alt="Sessionize"
+          />
           <span></span>
         </a>
       ) : null}
@@ -166,7 +169,6 @@ export default function socialMedia() {
           <span></span>
         </a>
       ) : null} */}
-
     </div>
   );
 }

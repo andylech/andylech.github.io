@@ -20,10 +20,7 @@ export default function Contact() {
         <div className="contact-text-div">
           {contactInfo.number && (
             <>
-              <a
-                className="contact-detail"
-                href={"tel:" + contactInfo.number}
-              >
+              <a className="contact-detail" href={"tel:" + contactInfo.number}>
                 {contactInfo.number}
               </a>
               <br />
