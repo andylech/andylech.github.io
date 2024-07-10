@@ -1,40 +1,20 @@
 @import "../../_globalColor";
 
-.main {
-  width: 90%;
-  padding: 20px 10px;
-  margin: 0px auto;
-  margin-top: 4rem;
-}
-.greet-main {
-  width: 90%;
-  padding: 20px 10px;
-  margin: 0px auto;
-  margin-top: 2rem;
-}
+// .main {
+//   width: 90%;
+//   margin: 0px auto;
+//   margin-top: 2rem;
+// }
 
-.greeting-main {
+.greeting-main-div {
   display: flex;
+  width: 90%;
+  margin: 0px auto;
+  margin-top: 1rem;
 }
 
-.subTitle {
-  color: $subTitle !important;
-}
-
-.greeting-main {
-  display: flex;
-}
-
-.greeting-main > * {
+.greeting-main-div > * {
   flex: 1;
-  margin-bottom: 30px;
-}
-.button-greeting-div {
-  display: flex;
-  margin-top: 20px;
-}
-.download-link-button {
-  text-decoration: none;
 }
 
 .greeting-text {
@@ -51,6 +31,10 @@
 .greeting-image-div > img {
   max-width: 100%;
   height: auto;
+}
+
+.subTitle {
+  color: $subTitle !important;
 }
 
 .wave-emoji {
@@ -90,26 +74,33 @@
   .greeting-text {
     font-size: 50px;
   }
+
   .greeting-text-p {
-    font-size: 20px;
+    font-size: 22px;
+    line-height: 29px;
   }
 }
+
 @media (max-width: 768px) {
   .button-greeting-div {
     justify-content: space-around;
   }
+
   .greeting-text {
     font-size: 30px;
     text-align: center;
   }
+
   .greeting-text-p {
-    font-size: 16px;
-    line-height: normal;
+    font-size: 20px;
+    line-height: 26px;
     text-align: center;
   }
-  .greeting-main {
+
+  .greeting-main-div {
     display: block;
   }
+
   .greeting-image-div {
     height: 256px;
   }

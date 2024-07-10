@@ -1,0 +1,31 @@
+@import "../../_globalColor";
+
+.summary-text {
+  margin: 10px 0;
+}
+
+/* Media Query */
+
+@media (max-width: 1380px) {
+  .summary-text {
+    font-size: 22px;
+    line-height: 29px;
+    margin: 8px 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .summary-main-div {
+    flex-direction: column;
+  }
+
+  .summary-text-div {
+    margin: 0px 10px;
+  }
+
+  .summary-text {
+    font-size: 20px;
+    line-height: 26px;
+    margin: 6px 0;
+  }
+}

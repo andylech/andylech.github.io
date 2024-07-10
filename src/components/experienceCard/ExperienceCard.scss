@@ -2,7 +2,7 @@
 
 .experience-card {
   position: relative;
-  background-color: $lightBackground2;
+  background-color: $lightCardBackground;
   box-shadow: $lightBoxShadowDark 0px 10px 30px -15px;
   border-radius: 10px;
   border: 1px solid $lightBorder1;
@@ -121,22 +121,37 @@
   margin-top: 2rem;
 }
 
+.summary-text {
+  margin: 10px 0;
+}
+
 /* Media Query */
+
+// Change font size by viewport resolution
 
 @media (max-width: 1380px) {
   .experience-text-role {
     padding-top: 0.5rem;
     font-size: 22px;
   }
+
   .experience-text-company {
     font-size: 22px;
   }
+
   .experience-text-date {
     font-size: 18px;
   }
+
   .experience-roundedimg {
     width: 6.5rem;
     height: 6.5rem;
+  }
+
+  .summary-text {
+    font-size: 22px;
+    line-height: 29px;
+    margin: 8px 0;
   }
 }
 
@@ -144,13 +159,22 @@
   .experience-text-role {
     font-size: 22px;
   }
+
   .experience-text-company {
     font-size: 22px;
   }
+
   .experience-text-date {
     font-size: 18px;
   }
+
   .experience-text-desc {
     font-size: 16px;
+  }
+
+  .summary-text {
+    font-size: 20px;
+    line-height: 26px;
+    margin: 6px 0;
   }
 }

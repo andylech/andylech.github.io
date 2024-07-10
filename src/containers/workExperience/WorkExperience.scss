@@ -1,45 +1,34 @@
+
 .experience-cards-div {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  grid-template-columns: repeat(1, minmax(280px, 1fr));
   gap: 1rem;
 }
 
-.experience-heading {
-  font-size: 56px;
-  font-weight: 400;
-}
+/* Media Queries */
 
-.experience-container {
-  display: flex;
-  width: 90%;
-  padding: 20px 10px;
-  margin: 0px auto;
-  margin-top: 1rem;
-}
+// Determine # of card columns by viewport resolution
 
-.experience-container > * {
-  flex: 1;
-}
-
-/* Media Query */
-
-@media (min-width: 500px) {
+@media (min-width: 1280px) {
   .experience-cards-div {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(480px, 1fr));
-    gap: 1rem;
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
-@media (max-width: 1380px) {
-  .experience-heading {
-    font-size: 40px;
+@media (min-width: 1920px) {
+  .experience-cards-div {
+    grid-template-columns: repeat(3, 1fr);
   }
 }
 
-@media (max-width: 768px) {
-  .experience-heading {
-    font-size: 30px;
-    text-align: center;
+@media (min-width: 2560px) {
+  .experience-cards-div {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media (min-width: 3200px) {
+  .experience-cards-div {
+    grid-template-columns: repeat(5, 1fr);
   }
 }

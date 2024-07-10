@@ -4,11 +4,8 @@
   font-size: 2em;
 }
 
-.icon-button {
-  margin-bottom: 10px;
-}
-
-.icon-button i {
+.icon-button i,
+.icon-button img {
   color: $textColorDark;
   border-radius: 2.6rem;
   cursor: pointer;
@@ -24,8 +21,8 @@
   -ms-user-select: none;
   user-select: none;
   width: 2.6rem;
-  margin-bottom: 10px;
   transition: 0.2s ease-in;
+  vertical-align: middle;
 }
 
 .facebook i {
@@ -66,6 +63,14 @@
 
 .instagram i {
   background-color: $instagram;
+}
+
+img.sessionize {
+  src: url("../../assets/images/sessionizeLogo.png");
+}
+
+.sessionize img {
+  src: url(../../assets/images/sessionizeLogo.png);
 }
 
 /* Hover Transition */

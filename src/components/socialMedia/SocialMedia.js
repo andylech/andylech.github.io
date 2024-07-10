@@ -8,18 +8,6 @@ export default function socialMedia() {
   }
   return (
     <div className="social-media-div">
-      {socialMediaLinks.github ? (
-        <a
-          href={socialMediaLinks.github}
-          className="icon-button github"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <i className="fab fa-github"></i>
-          <span></span>
-        </a>
-      ) : null}
-
       {socialMediaLinks.linkedin ? (
         <a
           href={socialMediaLinks.linkedin}
@@ -32,14 +20,26 @@ export default function socialMedia() {
         </a>
       ) : null}
 
-      {socialMediaLinks.gmail ? (
+      {socialMediaLinks.email ? (
         <a
-          href={`mailto:${socialMediaLinks.gmail}`}
+          href={`mailto:${socialMediaLinks.email}`}
           className="icon-button google"
           target="_blank"
           rel="noopener noreferrer"
         >
           <i className="fas fa-envelope"></i>
+          <span></span>
+        </a>
+      ) : null}
+
+      {socialMediaLinks.github ? (
+        <a
+          href={socialMediaLinks.github}
+          className="icon-button github"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i className="fab fa-github"></i>
           <span></span>
         </a>
       ) : null}
@@ -127,6 +127,46 @@ export default function socialMedia() {
           <span></span>
         </a>
       ) : null}
+
+      {/* {socialMediaLinks.sessionize ? (
+        <a
+          href={socialMediaLinks.sessionize}
+          className="icon-button sessionize"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src={"./sessionizeLogo.png"} alt="Sessionize"/>
+          <span></span>
+        </a>
+      ) : null} */}
+
+      {socialMediaLinks.sessionize ? (
+        <a
+          href={socialMediaLinks.sessionize}
+          className="icon-button sessionize"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src={require("../../assets/images/sessionizeLogo.png")} alt="Sessionize"/>
+          <span></span>
+        </a>
+      ) : null}
+
+      {/* {socialMediaLinks.sessionize ? (
+        <a
+          href={socialMediaLinks.sessionize}
+          className="icon-button sessionize"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img
+            src={require("./assets/images/sessionizeLogo.png")}
+            alt="Sessionize"
+          />
+          <span></span>
+        </a>
+      ) : null} */}
+
     </div>
   );
 }
