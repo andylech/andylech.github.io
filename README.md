@@ -1,7 +1,8 @@
-# My Portfolio on [AndyLech.com](htttps://andylech.com)
+# My Portfolio
 
-<img alt="AndyLech.com - Scrolling Capture"
-  src="./.github/images/AndyLech.com - Scrolling Capture.gif">
+[Live demo on AndyLech.com](htttps://andylech.com)
+
+!["AndyLech.com - Scrolling Capture"](./.github/images/AndyLech.com - Scrolling Capture.gif)
 
 ## Background
 
