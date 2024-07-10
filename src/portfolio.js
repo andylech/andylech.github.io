@@ -10,7 +10,7 @@ const splashScreen = {
   enabled: false // set false to disable splash screen
 };
 
-// Summary And Greeting Section
+// Greeting Section
 
 const illustration = {
   animated: false // Set to false to use static SVG
@@ -21,9 +21,6 @@ const greeting = {
   title: "Hi, I'm Andy Lech",
   subTitle:
     "I've been working in .NET since 2011, creating cross-platform .NET mobile apps with Xamarin.Forms and .NET MAUI on Android and iOS for Golf Channel and others since 2015.",
-  // TODO
-  resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing",
   // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
@@ -33,102 +30,41 @@ const greeting = {
 const socialMediaLinks = {
   linkedin: "https://www.linkedin.com/in/andy-lech/",
   github: "https://github.com/andylech",
-  gmail: "portfolio@andylech.com",
+  email: "portfolio@andylech.com",
   // gitlab: "",
   // facebook: "",
   // medium: "",
   // stackoverflow: "",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
+  sessionize: "https://sessionize.com/andy-lech",
   display: true // Set true to display this section, defaults to false
+};
+
+// Summary Section
+
+// TODO Replace lightning bolt with bullet point when figure out how to insert that emoji
+const summarySection = {
+  title: "Summary",
+  highlightList: [
+    "9 years architecting and building cross-platform .NET apps (Android, iOS) on Xamarin.Forms and .NET MAUI",
+    "9 years designing and creating REST APIs, .NET libraries, and NuGet packages for .NET mobile apps",
+    "13 years developing with .NET and SQL Server focusing on efficient Data Design and Data Consumption",
+    "Presenter on mobile development and API design at Orlando Code Camp and other regional conferences",
+    "President of Orlando .NET User Group (ONETUG) and head organizer of Orlando Code Camp"
+  ],
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Skills Section
 
-// TODO Replace lightning bolt with bullet point when figure out how to insert that emoji
+// TODO See original for content types to add back if figure alternative with .NET logos
 const skillsSection = {
-  title: "Summary",
-  // TODO
-  subTitle: "",
-  // TODO
-  skills: [
-    <li>
-      <u>9 years</u> architecting and building <u>cross-platform mobile apps</u>{" "}
-      (Android, iOS) on{" "}
-      <a
-        href="https://learn.microsoft.com/en-us/previous-versions/xamarin/xamarin-forms/"
-        target="reference"
-      >
-        Xamarin.Forms
-      </a>{" "}
-      and{" "}
-      <a
-        href="https://learn.microsoft.com/en-us/dotnet/maui/"
-        target="reference"
-      >
-        .NET MAUI
-      </a>
-    </li>,
-    <li>
-      <u>9 years</u> designing and creating{" "}
-      <a
-        href="https://github.com/xamarinfiles/library-api-sessionize/"
-        target="reference"
-      >
-        REST APIs
-      </a>
-      ,{" "}
-      <a href="https://github.com/xamarinfiles/" target="reference">
-        .NET libraries
-      </a>
-      , and{" "}
-      <a
-        href="https://www.nuget.org/profiles/TheXamarinFiles/"
-        target="reference"
-      >
-        NuGet packages
-      </a>{" "}
-      for <u>.NET mobile apps</u>
-    </li>,
-    <li>
-      <u>13 years</u> overall developing with <u>.NET</u> and <u>SQL Server</u>{" "}
-      focusing on efficient <u>Data Design</u> and <u>Data Consumption</u>
-    </li>,
-    <li>
-      <a
-        href="https://github.com/xamarinfiles/presentations/"
-        target="reference"
-      >
-        Presenter
-      </a>{" "}
-      on <u>mobile development</u> and <u>API design</u> at{" "}
-      <a href="https://orlandocodecamp.com/speakers/" target="reference">
-        Orlando Code Camp
-      </a>{" "}
-      and other{" "}
-      <a href="https://sessionize.com/andy-lech/" target="reference">
-        regional conferences
-      </a>
-    </li>,
-    <li>
-      President of{" "}
-      <a href="https://www.meetup.com/onetug/" target="reference">
-        Orlando .NET User Group (ONETUG)
-      </a>{" "}
-      and head organizer of{" "}
-      <a
-        href="https://github.com/Orlando-Codecamp/orlandocodecamp.github.io"
-        target="reference"
-      >
-        Orlando Code Camp
-      </a>
-    </li>
-  ],
-  // TODO See original for content types to add back if figure alternative with .NET logos
+  title: "Skills",
   /* Make Sure to include correct Font Awesome class name to view your icon */
   /* https://fontawesome.com/icons?d=gallery */
-  softwareSkills: [],
-  display: true // Set false to hide this section, defaults to true
+  skillsList: [ ],
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Education Section
@@ -141,28 +77,11 @@ const educationInfo = {
 
 // Your top 3 proficient stacks/tech experience
 
-// TODO Rework skillProgress layout to show all skills by years (keep progress bar?)
+// TODO See original for content types to add back
 const techStack = {
   viewSkillBars: false, //Set it to true to show Proficiency Section
-  experience: [
-    {
-      skill: "Skill 1", //Insert stack or technology you have experience in
-      progressPercentage: "100%", //Insert relative proficiency in percentage
-      years: 13
-    },
-    {
-      skill: "Skill 2",
-      progressPercentage: "85%",
-      years: 11
-    },
-    {
-      skill: "Skill 3",
-      progressPercentage: "70%",
-      years: 9
-    }
-  ],
-  // TODO
-  displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
+  // TODO Rework skillProgress layout to show all skills by years (keep progress bar?)
+  experience: [ ],
 };
 
 // Work experience section
@@ -177,9 +96,9 @@ const workExperiences = {
       date: "October 2020 - January 2024",
       desc: "",
       descBullets: [
-        "Created new Xamarin.Forms app on iPhones for commercial fraud investigations in the field with SmartPartner",
-        "Developed new Xamarin.Forms app on iPads for government fraud investigations in the field with UPIC",
-        "Architected apps with MVVM backbone, ViewModel navigation, and ReactiveUI for responsiveness and testability",
+        "Created new Xamarin.Forms iPhone app for commercial fraud investigations in the field with SmartPartner",
+        "Developed new Xamarin.Forms iPad app for government fraud investigations in the field with UPIC",
+        "Architected apps with MVVM backbone, ViewModel navigation, and RxUI for responsiveness and testability",
         "Designed and built new SQL Server DB and designed and built new API in LoopBack for new UPIC app",
         "Extended SQL Server DB and ASP.NET Web API backed by Entity Framework for new SmartPartner app"
       ]
@@ -191,7 +110,7 @@ const workExperiences = {
       date: "August 2019 - January 2020",
       desc: "",
       descBullets: [
-        "Fixed numerous logic, architecture, layout, and crash bugs from prototype while bringing the app to market",
+        "Fixed numerous logic, architecture, and layout bugs in prototype to launch app in Android and iOS stores",
         "Overhauled broken camera library to enable core image-capture logic across a variety of Android devices",
         "Split image analysis into phases using persistent background processes to accommodate app lifecycle events"
       ]
@@ -203,8 +122,8 @@ const workExperiences = {
       date: "March 2018 – July 2019",
       desc: "",
       descBullets: [
-        "Created new Xamarin.Forms app replacing divergent Android and iOS code bases having different tech stacks",
-        "Architected app with MVVM backbone, ViewModel navigation, and messaging service for analytics and reporting",
+        "Created new Xamarin.Forms app replacing divergent Android and iOS code bases with different tech stacks",
+        "Architected app with MVVM backbone, ViewModel navigation, and messaging service for analytics/reporting",
         "Replaced broken build pipeline and legacy distribution, analytics, and error-reporting with VS App Center",
         "Built dependent libraries to consume and test multiple REST services implementing complex business logic"
       ]
@@ -250,8 +169,8 @@ const workExperiences = {
       date: "October 2013 – October 2014",
       desc: "",
       descBullets: [
-        "Developed ASP.NET MVC site for administering, searching, and reporting on 1.8+ million phone calls in 9 mos",
-        "Made multiple Highcharts of volumes and breakdowns including chart-to-page and chart-to-chart drill-downs",
+        "Built ASP.NET MVC site for administering, searching, and reporting on 1.8+ million phone calls in 9 mos",
+        "Created multiple Highcharts of volumes and breakdowns with chart-to-page and chart-to-chart drill-downs",
         "Designed a data mart to feed the executive dashboard and summarize millions of calls in under 1 second"
       ]
     },
@@ -324,7 +243,7 @@ const blogSection = {
 
 const talkSection = {
   title: "Talks",
-  subtitle: " ",
+  subtitle: "",
   sessionizeProfile: "https://sessionize.com/andy-lech/",
   talks: [
     {
@@ -351,13 +270,16 @@ const podcastSection = {
 
 // Resume Section
 
-// TODO Not working in the original
+// TODO Keep?
 const resumeSection = {
   title: "Resume",
   subtitle: "",
   display: false // Set false to hide this section, defaults to true
 };
 
+// Contact Section
+
+// TODO Merge with greeting
 const contactInfo = {
   title: "Contact Me",
   subtitle: "",
@@ -367,6 +289,7 @@ const contactInfo = {
 
 // Twitter Section
 
+// TODO Keep?
 const twitterDetails = {
   userName: "twitter", //Replace "twitter" with your twitter username without @
   display: false // Set true to display this section, defaults to false
@@ -378,6 +301,7 @@ export {
   illustration,
   greeting,
   socialMediaLinks,
+  summarySection,
   splashScreen,
   skillsSection,
   educationInfo,
