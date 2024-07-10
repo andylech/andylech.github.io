@@ -1,5 +1,9 @@
 # Andy Lech's Portfolio
 
+<p align="center">
+  <img alt="Animated GIF of page demo" src="./src/assets/images/page-capture.gif">
+</p>
+
 ## Background
 
 I am currently looking for work and wanted to set up a simple web site to show off my developer experience for my job search. For roughly the last 9 years, my particular specialization has been as a cross-platform developer for mobile and desktop apps in the .NET ecosystem as well as developing and consuming API (Application Programming Interface) sites to feed those apps. For most of that time, the .NET framework of choice for cross-platform mobile/desktop apps has been Xamarin.Forms, but the ecosystem has switch over to its successor (.NET MAUI) as Xamarin.Forms has been phased out over the last two years and ultimately retired last month (May 2024).
@@ -32,19 +36,19 @@ I am grateful for the work of the original author, [Saad Pasta (@saadpasta)](htt
 
 ## Short-term Changes
 
-- The first changes were to make the layout alterations detailed above except where the future plans are detailed below.
+- **[Completed 7/1/24, Modified 7/9/24]** The first changes were to make the layout alterations detailed above except where the future plans are detailed below.
 
-- The second changes were, obviously, that I need to replace the specifics of Saad Pasta's experience with my own.
+- **[Completed 7/1/24]** The second changes were, obviously, that I need to replace the specifics of Saad Pasta's experience with my own.
 
 ## Medium-term Changes
 
-- **_[Needs Research]_** Add an icon font set with logo glyphs relevant to cross-platform .NET, API, MS SQL Server, and other .NET frameworks. [I know there are extensions for VS code which use other font sets that aren't strictly for web devs, but I would need to research how easy it would be to include those.]
+- **[TODO]** **_[Needs Research]_** Add an icon font set with logo glyphs relevant to cross-platform .NET, API, MS SQL Server, and other .NET frameworks. [I know there are extensions for VS code which use other font sets that aren't strictly for web devs, but I would need to research how easy it would be to include those.]
 
-- Incorporate bolding and underlines like my resume and change the font to something that shows off those traits better,
+- **[TODO]** Incorporate bolding and underlines like my resume and change the font to something that shows off those traits better,
 
-- Add skills with year counts in some sort of UI layout which highlights those I have more proficiency with.
+- **[TODO]** Add skills with year counts in some sort of UI layout which highlights those I have more proficiency with.
 
-- Add new Blogs, Talks, Organizations, and Volunteering sections as discussed above.
+- **[Interim Talks section completed 7/1/24]** Add new Blogs, Talks, Organizations, and Volunteering sections as discussed above.
 
 ## Long-term Changes
 
