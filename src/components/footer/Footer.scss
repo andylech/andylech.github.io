@@ -5,11 +5,11 @@
   color: $subTitle !important;
 }
 
-.dark-mode {
-  color: $textColorDark !important;
-}
-
 .footer-div {
   margin-top: 3rem;
   padding-bottom: 1rem;
+}
+
+.footer-div .dark-mode a {
+  color: $textColorDark !important;
 }

@@ -7,16 +7,15 @@
 
 /* header */
 
-.dark-menu {
-  background-color: $darkBackground !important;
-  color: $textColorDark;
-}
-
-.dark-menu li a {
+header.dark-mode a {
   color: $textColorDark !important;
 }
 
-.dark-menu li a:hover {
+.dark-mode li a {
+  color: $textColorDark !important;
+}
+
+.dark-mode li a:hover {
   background-color: $buttonColor !important;
 }
 
