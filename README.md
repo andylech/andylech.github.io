@@ -1,8 +1,18 @@
-# Andy Lech's Portfolio
+# My Portfolio on [AndyLech.com](htttps://andylech.com)
 
-<p align="center">
-  <img alt="Animated GIF of page demo" src="./src/assets/images/page-capture.gif">
-</p>
+<table align="center" border="0" width="100%">
+  <tr>
+    <td width="45%">
+      <img alt="Animated GIF of page demo"
+        src="./src/assets/images/full-page-screenshot-dark-small.png" />
+    </td>
+    <td width="10%" />
+    <td width="45%">
+      <img alt="Animated GIF of page demo"
+        src="./src/assets/images/full-page-screenshot-light-small.png"/>
+    </td>
+  </tr>
+</table>
 
 ## Background
 
