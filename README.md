@@ -1,8 +1,8 @@
-# My Portfolio
-
-[Live demo on AndyLech.com](htttps://andylech.com)
+# My Developer Portfolio
 
 ![AndyLech com - Scrolling Capture](https://github.com/andylech/andylech.github.io/assets/12124004/1c36cd07-37d1-405b-945b-b8f70e28d196)
+
+[Live demo on AndyLech.com](https://andylech.com)
 
 ## Background
 
