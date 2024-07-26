@@ -44,7 +44,10 @@ I am grateful for the work of the original author, [Saad Pasta (@saadpasta)](htt
 
 - **[TODO]** **_[Needs Research]_** Add an icon font set with logo glyphs relevant to cross-platform .NET, API, MS SQL Server, and other .NET frameworks. [I know there are extensions for VS code which use other font sets that aren't strictly for web devs, but I would need to research how easy it would be to include those.]
 
-- **[TODO]** Incorporate bolding and underlines like my resume and change the font to something that shows off those traits better,
+- **[Partially completed 7/9/24]** Incorporate bolding and underlines like my resume and change the font to something that shows off those traits better,
+
+  - _**[Completed 7/9/24]** Font changed to Fira Sans which is a more readable and a more layout-friendly font._
+  - **[TODO]** **_[Needs Research]_** Bolding and underlining skipped for now due to issue loading text containing markup from portfolio.js.
 
 - **[TODO]** Add skills with year counts in some sort of UI layout which highlights those I have more proficiency with.
 

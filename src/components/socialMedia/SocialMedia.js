@@ -128,18 +128,6 @@ export default function socialMedia() {
         </a>
       ) : null}
 
-      {/* {socialMediaLinks.sessionize ? (
-        <a
-          href={socialMediaLinks.sessionize}
-          className="icon-button sessionize"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <img src={"./sessionizeLogo.png"} alt="Sessionize"/>
-          <span></span>
-        </a>
-      ) : null} */}
-
       {socialMediaLinks.sessionize ? (
         <a
           href={socialMediaLinks.sessionize}
@@ -154,21 +142,6 @@ export default function socialMedia() {
           <span></span>
         </a>
       ) : null}
-
-      {/* {socialMediaLinks.sessionize ? (
-        <a
-          href={socialMediaLinks.sessionize}
-          className="icon-button sessionize"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <img
-            src={require("./assets/images/sessionizeLogo.png")}
-            alt="Sessionize"
-          />
-          <span></span>
-        </a>
-      ) : null} */}
     </div>
   );
 }
