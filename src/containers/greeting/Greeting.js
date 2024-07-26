@@ -25,19 +25,19 @@ export default function Greeting() {
           </p>
           <SocialMedia />
           <div className="button-greeting-div">
-              {greeting.resumeLink && (
-                <a
-                  href={greeting.resumeLink}
-                  className="download-link-button"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  download="Andy Lech - Resume.pdf"
-                >
-                  <Button text="Download my resume" newTab="true" />
-                </a>
-              )}
-            </div>
+            {greeting.resumeLink && (
+              <a
+                href={greeting.resumeLink}
+                className="download-link-button"
+                target="_blank"
+                rel="noopener noreferrer"
+                download="Andy Lech - Resume.pdf"
+              >
+                <Button text="Download my resume" newTab="true" />
+              </a>
+            )}
           </div>
+        </div>
       </div>
     </div>
   );
