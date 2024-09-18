@@ -22,8 +22,7 @@ const greeting = {
   subTitle:
     "I've been working in .NET since 2011, creating cross-platform .NET mobile apps with Xamarin.Forms and .NET MAUI on Android and iOS for Golf Channel and others since 2015.",
   // Set to empty to hide the button
-  // resumeLink:
-  //   "https://ln5.sync.com/dl/b03f97ab0/ymusgjzc-74qe5izu-fdnn638i-ipnuf38d",
+  // resumeLink: "",
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
