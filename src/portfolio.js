@@ -92,6 +92,17 @@ const workExperiences = {
   experience: [
     {
       role: "Mobile Developer",
+      company: "Sedgwick",
+      companylogo: require("./assets/images/sedgwick-logo.png"),
+      date: "August 2024 - March 2025",
+      desc: "",
+      descBullets: [
+        "Ported iPhone app for insurance investigations from retired Xamarin.Forms SDK to .NET MAUI replacement",
+        "Fixed lifecycle, logic, and layout bugs from legacy app and updated .NET MAUI app to .NET 9 and iOS 18"
+      ]
+    },
+    {
+      role: "Mobile Developer",
       company: "CoventBridge",
       companylogo: require("./assets/images/coventBridgeLogo.png"),
       date: "October 2020 - January 2024",
