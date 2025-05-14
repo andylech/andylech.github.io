@@ -9,9 +9,9 @@ on:
   push:
     branches:
       - main
-  schedule:
-    # see https://docs.github.com/en/actions/reference/events-that-trigger-workflows#scheduled-events
-    - cron: "30 6 * * *"
+  # schedule:
+  #   # see https://docs.github.com/en/actions/reference/events-that-trigger-workflows#scheduled-events
+  #   - cron: "30 6 * * *"
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
