@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.556a312f.css",
-    "main.js": "/static/js/main.9fbc4e1a.js",
+    "main.js": "/static/js/main.6cf86fbe.js",
     "static/css/487.bb36206c.chunk.css": "/static/css/487.bb36206c.chunk.css",
     "static/js/487.54c18c44.chunk.js": "/static/js/487.54c18c44.chunk.js",
     "static/css/990.33d5d842.chunk.css": "/static/css/990.33d5d842.chunk.css",
@@ -15,10 +15,11 @@
     "static/media/coventBridgeLogo.png": "/static/media/coventBridgeLogo.19f4cd9bdae407ca11b5.png",
     "static/media/mckessonLogo.jpg": "/static/media/mckessonLogo.09431da6697a9b5d1b3a.jpg",
     "static/media/3cStudiosLogo.png": "/static/media/3cStudiosLogo.888b613d9ac4b41c2780.png",
+    "static/media/sedgwick-logo.png": "/static/media/sedgwick-logo.06f649e97a1007f0faa9.png",
     "index.html": "/index.html",
     "static/media/talksCardBack.svg": "/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
     "main.556a312f.css.map": "/static/css/main.556a312f.css.map",
-    "main.9fbc4e1a.js.map": "/static/js/main.9fbc4e1a.js.map",
+    "main.6cf86fbe.js.map": "/static/js/main.6cf86fbe.js.map",
     "487.bb36206c.chunk.css.map": "/static/css/487.bb36206c.chunk.css.map",
     "487.54c18c44.chunk.js.map": "/static/js/487.54c18c44.chunk.js.map",
     "990.33d5d842.chunk.css.map": "/static/css/990.33d5d842.chunk.css.map",
@@ -26,6 +27,6 @@
   },
   "entrypoints": [
     "static/css/main.556a312f.css",
-    "static/js/main.9fbc4e1a.js"
+    "static/js/main.6cf86fbe.js"
   ]
 }
