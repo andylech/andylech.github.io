@@ -2,12 +2,40 @@
 
 .talk-cards-div {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
-  gap: 1rem 1rem;
+  grid-template-columns: repeat(1, minmax(280px, 1fr));
+  gap: 1rem;
 }
 
 // TODO Move this?
 .button-div {
   display: flex;
   margin-top: 20px;
+}
+
+/* Media Queries */
+
+// Determine # of card columns by viewport resolution
+
+@media (min-width: 1440px) {
+  .talk-cards-div {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 2160px) {
+  .talk-cards-div {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (min-width: 2880px) {
+  .talk-cards-div {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media (min-width: 3600px) {
+  .talk-cards-div {
+    grid-template-columns: repeat(5, 1fr);
+  }
 }
