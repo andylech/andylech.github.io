@@ -8,25 +8,25 @@
 
 // Determine # of card columns by viewport resolution
 
-@media (min-width: 1280px) {
+@media (min-width: 1440px) {
   .experience-cards-div {
     grid-template-columns: repeat(2, 1fr);
   }
 }
 
-@media (min-width: 1920px) {
+@media (min-width: 2160px) {
   .experience-cards-div {
     grid-template-columns: repeat(3, 1fr);
   }
 }
 
-@media (min-width: 2560px) {
+@media (min-width: 2880px) {
   .experience-cards-div {
     grid-template-columns: repeat(4, 1fr);
   }
 }
 
-@media (min-width: 3200px) {
+@media (min-width: 3600px) {
   .experience-cards-div {
     grid-template-columns: repeat(5, 1fr);
   }
