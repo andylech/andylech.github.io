@@ -224,18 +224,17 @@ const talkSection = {
     //     "https://sessionize.com/s/andy-lech/designing-apis-for-smart-data-consumption/152121"
     // },
     {
-      title:
-        "Build Better Mobile Apps with ReactiveUI",
+      title: "Build Better Mobile Apps with ReactiveUI",
       subtitle: "",
       slides_url: "https://github.com/andylech/talk-better-apps-reactiveui",
       event_url:
         "https://sessionize.com/s/andy-lech/build-better-mobile-apps-with-reactiveui/101683"
     },
     {
-      title:
-        "Find Bugs Faster through ViewModel and API Library Testing",
+      title: "Find Bugs Faster through ViewModel and API Library Testing",
       subtitle: "",
-      slides_url: "https://github.com/andylech/talk-testing-viewmodels-and-api-libraries",
+      slides_url:
+        "https://github.com/andylech/talk-testing-viewmodels-and-api-libraries",
       event_url:
         "https://sessionize.com/s/andy-lech/find-bugs-faster-through-viewmodel-and-api-library/145961"
     },
@@ -248,18 +247,17 @@ const talkSection = {
     //     "https://sessionize.com/s/andy-lech/providing-context-to-api-decisions-with-problem-de/101678"
     // },
     {
-      title:
-        "What DBAs Don't Know About Mobile Apps and APIs",
+      title: "What DBAs Don't Know About Mobile Apps and APIs",
       subtitle: "",
       slides_url: "https://github.com/andylech/talk-mobile-and-apis-for-dbas",
       event_url:
         "https://sessionize.com/s/andy-lech/what-dbas-dont-know-about-mobile-apps-and-apis/145960"
     },
     {
-      title:
-        "What Web Devs Don't Know About Mobile Apps and APIs",
+      title: "What Web Devs Don't Know About Mobile Apps and APIs",
       subtitle: "",
-      slides_url: "https://github.com/andylech/talk-mobile-and-apis-for-web-devs",
+      slides_url:
+        "https://github.com/andylech/talk-mobile-and-apis-for-web-devs",
       event_url:
         "https://sessionize.com/s/andy-lech/what-web-devs-dont-know-about-mobile-apps-and-apis/145959"
     }
