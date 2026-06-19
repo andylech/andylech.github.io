@@ -20,7 +20,7 @@ const greeting = {
   username: "Andy Lech",
   title: "Hi, I'm Andy Lech",
   subTitle:
-    "I've been working in .NET since 2011, creating cross-platform .NET mobile apps with Xamarin.Forms and .NET MAUI on Android and iOS for Golf Channel and others since 2015.",
+    "I've been creating cross-platform .NET mobile apps with Xamarin.Forms and .NET MAUI on Android and iOS for Golf Channel and others since 2015.",
   // Set to empty to hide the button
   // resumeLink: "",
   displayGreeting: true // Set false to hide this section, defaults to true
@@ -48,11 +48,11 @@ const socialMediaLinks = {
 const summarySection = {
   title: "Summary",
   highlightList: [
-    "9 years architecting and building cross-platform .NET apps (Android, iOS) on Xamarin.Forms and .NET MAUI",
-    "9 years designing and creating REST APIs, .NET libraries, and NuGet packages for .NET mobile apps",
-    "13 years developing with .NET and SQL Server focusing on efficient Data Design and Data Consumption",
-    "Presenter on mobile development and API design at Orlando Code Camp and other regional conferences",
-    "President of Orlando .NET User Group (ONETUG) and head organizer of Orlando Code Camp"
+    "10 years architecting and building .NET mobile apps (Android, iOS) with Xamarin.Forms and .NET MAUI",
+    "10 years designing and creating REST APIs, .NET libraries, and NuGet packages for .NET mobile apps",
+    "Holds prestigious Microsoft MVP award since August 2025 in Developer Technologies for my work in .NET",
+    "Orlando .NET User Group President, Orlando Code Camp organizer, and .NET Foundation committee member",
+    "Presenter on mobile development and API design at Orlando Code Camp and other regional conferences"
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -97,8 +97,9 @@ const workExperiences = {
       date: "August 2024 - March 2025",
       desc: "",
       descBullets: [
-        "Ported iPhone app for insurance investigations from retired Xamarin.Forms SDK to .NET MAUI replacement",
-        "Fixed lifecycle, logic, and layout bugs from legacy app and updated .NET MAUI app to .NET 9 and iOS 18"
+        "Ported broken iPhone app for insurance investigations from retired Xamarin.Forms to current .NET MAUI",
+        "Fixed lifecycle, logic, and layout bugs from legacy app and updated .NET MAUI app to .NET 9 and iOS 18",
+        "Erased years of technical debt that prevented release by solving core performance and stability issues"
       ]
     },
     {
@@ -108,10 +109,10 @@ const workExperiences = {
       date: "October 2020 - January 2024",
       desc: "",
       descBullets: [
-        "Created new Xamarin.Forms iPhone app for commercial fraud investigations in the field with SmartPartner",
-        "Developed new Xamarin.Forms iPad app for government fraud investigations in the field with UPIC",
+        "Created new iPhone app in Xamarin.Forms for commercial-fraud investigations on SmartPartner platform",
+        "Developed new iPad app in Xamarin.Forms for government-fraud investigations under UPIC program",
         "Architected apps with MVVM backbone, ViewModel navigation, and RxUI for responsiveness and testability",
-        "Designed and built new SQL Server DB and designed and built new API in LoopBack for new UPIC app",
+        "Designed and built new SQL Server DB and designed and built new REST API in LoopBack for new UPIC app",
         "Extended SQL Server DB and ASP.NET Web API backed by Entity Framework for new SmartPartner app"
       ]
     },
@@ -122,9 +123,9 @@ const workExperiences = {
       date: "August 2019 - January 2020",
       desc: "",
       descBullets: [
-        "Fixed numerous logic, architecture, and layout bugs in prototype to launch app in Android and iOS stores",
-        "Overhauled broken camera library to enable core image-capture logic across a variety of Android devices",
-        "Split image analysis into phases using persistent background processes to accommodate app lifecycle events"
+        "Fixed Xamarin.Forms prototype full of logic, architecture, and UI bugs to launch Android and iOS apps",
+        "Overhauled defective Android camera library to enable core image-capture functionality across all devices",
+        "Created phased image analysis using persistent background processes to accommodate app lifecycle"
       ]
     },
     {
@@ -135,9 +136,9 @@ const workExperiences = {
       desc: "",
       descBullets: [
         "Created new Xamarin.Forms app replacing divergent Android and iOS code bases with different tech stacks",
-        "Architected app with MVVM backbone, ViewModel navigation, and messaging service for analytics/reporting",
+        "Architected app with MVVM backbone, ViewModel navigation, and service for heavy analytics/reporting",
         "Replaced broken build pipeline and legacy distribution, analytics, and error-reporting with VS App Center",
-        "Built dependent libraries to consume and test multiple REST services implementing complex business logic"
+        "Built standalone libraries implementing complex business logic to consume and test multiple REST APIs"
       ]
     },
     {
@@ -148,7 +149,8 @@ const workExperiences = {
       desc: "",
       descBullets: [
         "Built new Xamarin.Forms app for iPads to streamline purchasing of school supplies at 3cFreeStore locations",
-        "Added barcode scanning and inventory matching logic to speed lookup of inventory items dramatically"
+        "Added barcode scanning and inventory matching logic to speed lookup of inventory items dramatically",
+        "Mentored company owner in cross-platform mobile development and consulted on other mobile projects"
       ]
     },
     {
@@ -160,52 +162,7 @@ const workExperiences = {
       descBullets: [
         "Developed new Xamarin.Forms app for Signature Loyalty on Android and iOS leading to 4X usage increase",
         "Created new Xamarin.Forms app for project workflow system for Android, iOS, and Windows Phone",
-        "In charge of Xamarin Insights error-tracking, Android deployments, and Android and iOS store analytics"
-      ]
-    },
-    {
-      role: "Programmer/Analyst 4",
-      company: "McKesson Technology Solutions",
-      companylogo: require("./assets/images/mckessonLogo.jpg"),
-      date: "February 2015 – June 2015",
-      desc: "",
-      descBullets: [
-        "Created and maintained complex business rules to predict insurance-company reimbursements to hospitals",
-        "Brought backlog of work items down to zero for permanent staff by working open defects and enhancements"
-      ]
-    },
-    {
-      role: "Software Engineer 3",
-      company: "McKesson Technology Solutions",
-      companylogo: require("./assets/images/mckessonLogo.jpg"),
-      date: "October 2013 – October 2014",
-      desc: "",
-      descBullets: [
-        "Built ASP.NET MVC site for administering, searching, and reporting on 1.8+ million phone calls in 9 mos",
-        "Created multiple Highcharts of volumes and breakdowns with chart-to-page and chart-to-chart drill-downs",
-        "Designed a data mart to feed the executive dashboard and summarize millions of calls in under 1 second"
-      ]
-    },
-    {
-      role: "C# .NET Developer",
-      company: "SeaWorld Parks & Entertainment",
-      companylogo: require("./assets/images/seaWorldLogo.png"),
-      date: "March 2013 – June 2013",
-      desc: "",
-      descBullets: [
-        "Management of 200+ transactional email templates embedded in SeaWorld's legacy e-commerce application",
-        "Created automated conversion to overhaul non-standard templates for running on a 3rd-party email service"
-      ]
-    },
-    {
-      role: "Senior Systems Analyst",
-      company: "University of Pittsburgh Medical Center",
-      companylogo: require("./assets/images/upmcLogo.png"),
-      date: "May 2011 – September 2012",
-      desc: "",
-      descBullets: [
-        "Brought a bug-ridden application for tracking Cancer specimens back to life despite missing source code",
-        "Developed ASP.NET MVC model for NIH-funding tracker built on top of Entity Framework and SQL Server"
+        "Spearheaded Xamarin.Forms for cross-platform mobile development over single-platform frameworks"
       ]
     }
   ]
@@ -258,13 +215,51 @@ const talkSection = {
   subtitle: "",
   sessionizeProfile: "https://sessionize.com/andy-lech/",
   talks: [
+    // {
+    //   title:
+    //     "Designing APIs for Smart Data Consumption",
+    //   subtitle: "",
+    //   slides_url: "",
+    //   event_url:
+    //     "https://sessionize.com/s/andy-lech/designing-apis-for-smart-data-consumption/152121"
+    // },
     {
-      title:
-        "The Secret to Mobile is API Design, App Architecture, and Data Handling",
+      title: "Build Better Mobile Apps with ReactiveUI",
       subtitle: "",
-      slides_url: "",
+      slides_url: "https://github.com/andylech/talk-better-apps-reactiveui",
       event_url:
-        "https://sessionize.com/s/andy-lech/the-secret-to-mobile-is-api-design-app-architectur/74819"
+        "https://sessionize.com/s/andy-lech/build-better-mobile-apps-with-reactiveui/101683"
+    },
+    {
+      title: "Find Bugs Faster through ViewModel and API Library Testing",
+      subtitle: "",
+      slides_url:
+        "https://github.com/andylech/talk-testing-viewmodels-and-api-libraries",
+      event_url:
+        "https://sessionize.com/s/andy-lech/find-bugs-faster-through-viewmodel-and-api-library/145961"
+    },
+    // {
+    //   title:
+    //     "Providing Context to API Decisions with Problem Details",
+    //   subtitle: "",
+    //   slides_url: "",
+    //   event_url:
+    //     "https://sessionize.com/s/andy-lech/providing-context-to-api-decisions-with-problem-de/101678"
+    // },
+    {
+      title: "What DBAs Don't Know About Mobile Apps and APIs",
+      subtitle: "",
+      slides_url: "https://github.com/andylech/talk-mobile-and-apis-for-dbas",
+      event_url:
+        "https://sessionize.com/s/andy-lech/what-dbas-dont-know-about-mobile-apps-and-apis/145960"
+    },
+    {
+      title: "What Web Devs Don't Know About Mobile Apps and APIs",
+      subtitle: "",
+      slides_url:
+        "https://github.com/andylech/talk-mobile-and-apis-for-web-devs",
+      event_url:
+        "https://sessionize.com/s/andy-lech/what-web-devs-dont-know-about-mobile-apps-and-apis/145959"
     }
   ],
   display: true // Set false to hide this section, defaults to true
